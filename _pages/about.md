@@ -27,3 +27,4 @@ Research experience
   * We design the CMS, where audio-visual consistent feature learning and interactive cross-attention learning are presented to emphasize the semantic consistency for accurate separation.
 
   * Extensive experiments are performed on three datasets, MUSIC, VGGSound, and AudioSet, achieving outperform results in both supervised and unsupervised separation, which certifies the effectiveness of our proposed approach. In MUSIC Dataset, We improves SDR by 2.04 in MUSIC and 3.57 in VGGSound-15MusicInstruments compared with previous SOTA.
+  * The github link is [github.com/ZhenkaiLin/CMS-IAL](https://github.com/ZhenkaiLin/CMS-IAL).
