@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Bio"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -11,36 +11,50 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Computer Science, UESTC (University of Electronic Science and Technology of China), 2022
+* M.S. in Electronic Information, UESTC (University of Electronic Science and Technology of China), 2025 (expected)
 
-Work experience
+Research experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2021.10-2022.10: Unsupervised Music Sound Separation Utilizing Sound Localization
+  * Undergraduate Thesis
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* 2022.10-2023.8: Independency Adversarial Learning for Cross-modal Sound Separation
+  * AAAI 2024 (under submission)
+  * We propose the IAL, which builds adversarial learning on the mutual information among separated sound elements to decompose overlap and enhance the independence of sound elements. 
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  * We design the CMS, where audio-visual consistent feature learning and interactive cross-attention learning are presented to emphasize the semantic consistency for accurate separation.
+
+  * Expensive experiments are performed on three datasets, MUSIC, VGGSound, and AudioSet, achieving outperform results in both supervised and unsupervised separation, which certifies the effectiveness of our proposed approach. In MUSIC Dataset, We improves SDR by 2.04 in MUSIC and 3.57 in VGGSound-15MusicInstruments compared with previous SOTA.
+
+#Work experience
+#======
+#* Summer 2015: Research Assistant
+#  * Github University
+#  * Duties included: Tagging issues
+#  * Supervisor: Professor Git
+
+#* Fall 2015: Research Assistant
+#  * Github University
+#  * Duties included: Merging pull requests
+#  * Supervisor: Professor Hub
+
+
+
+#Skills
+#======
+#* Skill 1
+#* Skill 2
+#  * Sub-skill 2.1
+#  * Sub-skill 2.2
+#  * Sub-skill 2.3
+#* Skill 3
+
+#Publications
+#======
+#  <ul>{% for post in site.publications %}
+#    {% include archive-single-cv.html %}
+#  {% endfor %}</ul>
   
 Talks
 ======
